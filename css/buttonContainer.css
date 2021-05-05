@@ -1,0 +1,19 @@
+.buttonContainer {
+    display: block;
+    margin: 0px 5px;
+}
+
+.buttonContainer__buttonBox {
+    display: block;
+    border: 2px solid #efe58e;
+    border-radius: 30px;
+    padding: 15px;
+    max-width: 600px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.buttonContainer__button {
+    padding: 10px 5px;
+    margin: 6px;
+}

@@ -1,0 +1,74 @@
+.musicContainer {
+    overflow-x: auto;
+    margin-left: 10px;
+}
+
+.musicContainer__table {
+    font-family: "Lato", sans-serif;
+    border-collapse: collapse;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.musicContainer__tableCell {
+    border: 2px solid #222;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.musicContainer__tableCaption {
+    caption-side: bottom;
+    text-align: right;
+    margin: 10px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.musicContainer__tableColumn--header {
+    background-color: darkblue;
+    color: #eee;
+    font-weight: bold;
+}
+
+.musicContainer__tableRow:nth-child(even) {
+    background: #C3E8FF;
+}
+
+.musicContainer__tableRow:nth-child(odd) {
+    background: #fff;
+}
+
+.musicContainer__tableRow:hover {
+    background: #9DCDFF;
+}
+
+.musicContainer__link {
+    color: rgb(230, 230, 230);
+    background-color: blue;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.musicContainer__link:focus {
+    color: rgb(230, 230, 230);
+    background-color: blue;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-bottom: 4px black;
+}
+
+.musicContainer__link:hover {
+    color: rgb(230, 230, 230);
+    background-color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.musicContainer__link:active {
+    color: rgb(70, 70, 70);
+    background-color: darkblue;
+    text-decoration: none;
+    padding: 5px 10px;
+}

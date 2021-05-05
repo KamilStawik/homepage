@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamil Stawik Junior Frontend Developer</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/webSiteTitle.css" rel="stylesheet">
+    <link href="css/mainHeading.css" rel="stylesheet">
+    <link href="css/buttonContainer.css" rel="stylesheet">
+    <link href="css/navigationList.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="css/musicContainer.css" rel="stylesheet">
+    <link href="css/contactArticle.css" rel="stylesheet">
+    <link href="css/mainFooter.css" rel="stylesheet">
+
+    <script defer src="js/script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body class="wholeBody">
+    <header>
+        <h1 class="webSiteTitle">Kamil Stawik Junior Frontend Developer</h1>
+    </header>
+    <div class="buttonContainer">
+        <div class="buttonContainer__buttonBox">
+            <button class="jsButtonRemovingHeading buttonContainer__button">Usuń Nagłówek</button>
+            <button class="jsButtonChangingBackground buttonContainer__button">Nie chcę dalej czytać</button>
+            <button class="jsButtonNightReading buttonContainer__button">Tryb nocny</button>
+        </div>
+    </div>
+    <nav>
+        <ul class="navigationList">
+            <li class="navigationList__item"><a class="navigationList__link" href="#sekcja-o-mnie">O mnie</a></li>
+            <li class="navigationList__item"><a class="navigationList__link" href="#moje-zainteresowania">Moje
+                    zainteresowania</a></li>
+            <li class="navigationList__item"><a class="navigationList__link" href="#sekcja-muzyczna">Moje ulubione
+                    utwory</a>
+            </li>
+            <li class="navigationList__item"><a class="navigationList__link" href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <main class="mainContent">
+        <section id="sekcja-o-mnie">
+            <h2 class="mainHeading">Sekcja o mnie</h2>
+            <article class="article">
+                <h3>I co ja robię tu, u-u</h3>
+
+                <p>Cześć,<br>
+                    Nazywam się Kamil i mam 32 lata. Edukację zasadniczą skończyłem już dość dawno i od tego czasu
+                    niewiele się
+                    rozwijałem. Obecnie pracuję w branży e-commerce, a wcześniej byłem handlowcem. Niestety obecne
+                    zajęcie daje
+                    mi
+                    coraz mniej satysfakcji i tak pojawił się pomysł na
+                    <strong>programowanie</strong>. Może nie tyle pojawił się z
+                    nikąd, co raczej
+                    wrócił. Pierwszy raz spotkałem się z programowaniem będąc jeszcze w liceum i już wtedy mocno
+                    mnie to
+                    zainteresowało. Studia również wybrałem pod tym kątem, ale nie udało mi się ich ukończyć.
+                </p>
+                <hr>
+                <p>
+                    Od pewnego czasu szukałem materiałów do nauki programowania i jak tylko zobaczyłem kurs YouCode
+                    od
+                    razu
+                    pomyślałem, że <i>to jest coś dla mnie.</i> Teraz ostro biorę się do pracy i nadrabiam
+                    zaległości :)
+
+                </p>
+            </article>
+
+            <article class="article">
+                <h3 id="moje-zainteresowania">Moje zainteresowania</h3>
+                <ul></ul>
+                <li>Podróże i zwiedzanie<br>
+                    <img src="https://c.pxhere.com/photos/a8/64/tourist_travel_sightseeing_building_venice-1295.jpg!d"
+                        alt="Zdjęcie z wycieczki" width="300" class="article__photography">
+                </li>
+                <li>Wycieczki motocyklowe<br>
+                    <img src="https://cdn.pixabay.com/photo/2014/08/11/18/30/motorcycle-415898_960_720.jpg"
+                        alt="Zdjęcie z wycieczki" width="300" class="article__photography">
+                </li>
+                <li>Gry komputerowe<br>
+                    <img src="https://p0.piqsels.com/preview/707/407/793/activity-adult-device-electronics.jpg"
+                        alt="Gra komputerowa" width="300" class="article__photography">
+                </li>
+                <li>Muzyka<br>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Linkin_Park-Rock_im_Park_2014-_by_2eight_DSC8742.jpg"
+                        alt="Zdjęcie zespołu" width="300" class="article__photography">
+                </li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="sekcja-muzyczna" class="mainContent">
+            <h2 class="mainHeading">Sekcja muzyczna</h2>
+            <div class="musicContainer">
+                <table class="musicContainer__table">
+                    <caption class="musicContainer__tableCaption">Moje ulubione piosenki</caption>
+                    <tr class="musicContainer__tableRow">
+                        <th class="musicContainer__tableCell musicContainer__tableColumn--header" scope="col">Tytuł
+                            utworu
+                        </th>
+                        <th class="musicContainer__tableCell musicContainer__tableColumn--header" scope="col">Wykonawca
+                        </th>
+                        <th class="musicContainer__tableCell musicContainer__tableColumn--header" scope="col">Tytuł
+                            albumu
+                        </th>
+                        <th class="musicContainer__tableCell musicContainer__tableColumn--header" scope="col">Rok
+                            wydania</th>
+                        <th class="musicContainer__tableCell musicContainer__tableColumn--header" scope="col">Link do
+                            YouTube
+                        </th>
+                    </tr>
+                    <tr class="musicContainer__tableRow">
+                        <th class="musicContainer__tableCell" scope="row">In the end</th>
+                        <td class="musicContainer__tableCell" rowspan="3">Linkin Park</td>
+                        <td class="musicContainer__tableCell">Reanimation</td>
+                        <td class="musicContainer__tableCell">2002</td>
+                        <td class="musicContainer__tableCell"><a href="https://www.youtube.com/watch?v=eVTXPUF4Oz4"
+                                target="_blank" class="musicContainer__link" rel="noreferrer noopener">Posłuchaj</a>
+                        </td>
+                    </tr>
+                    <tr class="musicContainer__tableRow">
+                        <th class="musicContainer__tableCell" scope="row">Numb</th>
+
+                        <td class="musicContainer__tableCell">Meteora</td>
+                        <td class="musicContainer__tableCell">2003</td>
+                        <td class="musicContainer__tableCell"><a href="https://www.youtube.com/watch?v=kXYiU_JCYtU"
+                                target="_blank" class="musicContainer__link" rel="noreferrer noopener">Posłuchaj</a>
+                        </td>
+                    </tr>
+                    <tr class="musicContainer__tableRow">
+                        <th class="musicContainer__tableCell" scope="row">What i've done</th>
+
+                        <td class="musicContainer__tableCell">Minutes to Midnight</td>
+                        <td class="musicContainer__tableCell">2007</td>
+                        <td class="musicContainer__tableCell"><a href="https://www.youtube.com/watch?v=8sgycukafqQ"
+                                target="_blank" class="musicContainer__link" rel="noreferrer noopener">Posłuchaj</a>
+                        </td>
+                    </tr>
+                    <tr class="musicContainer__tableRow">
+                        <th class="musicContainer__tableCell" scope="row">Nothing else matters
+                        </th>
+                        <td class="musicContainer__tableCell">Mettalica</td>
+                        <td class="musicContainer__tableCell">Metallica</td>
+                        <td class="musicContainer__tableCell">1991</td>
+                        <td class="musicContainer__tableCell"><a href="https://www.youtube.com/watch?v=tAGnKpE4NCI"
+                                target="_blank" class="musicContainer__link" rel="noreferrer noopener">Posłuchaj</a>
+                        </td>
+                    </tr>
+                    <tr class="musicContainer__tableRow">
+                        <th class="musicContainer__tableCell" scope="row">Mój Bóg</th>
+                        <td class="musicContainer__tableCell">Ira</td>
+                        <td class="musicContainer__tableCell">9</td>
+                        <td class="musicContainer__tableCell">2009</td>
+                        <td class="musicContainer__tableCell"><a href="https://www.youtube.com/watch?v=36Xp5l8H0M8"
+                                target="_blank" class="musicContainer__link" rel="noreferrer noopener">Posłuchaj</a>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </section>
+
+        <article class="contactArticle">
+            <h2 id="kontakt" class="mainHeading">Kontakt</h2>
+            <p>Firma 1 <br>ul. Wiejska 1<br>00-100 Warszawa<br>
+                Email: <a href="mailto:kamil_stawik@op.pl">kamil_stawik@op.pl</a><br>
+                Tel: <a href="tel:+48500602759">500 602 759</a>
+            </p>
+        </article>
+    </main>
+
+    <footer class="mainFooter">
+        <p>Kamil Stawik 2021 All rights reserved</p>
+
+    </footer>
+
+</body>
+
+</html>

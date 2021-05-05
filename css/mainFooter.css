@@ -1,0 +1,9 @@
+.mainFooter {
+    color: #111;
+    background-color: #efe58e;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    margin: 0, auto;
+    text-align: center;
+    padding: 1% 3%;
+}

@@ -1,0 +1,8 @@
+.webSiteTitle {
+    color: darkblue;
+    text-align: center;
+}
+
+.webSiteTitle--none {
+    display: none;
+}
