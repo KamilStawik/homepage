@@ -18,3 +18,24 @@
     box-shadow: 7px 7px 5px 0px #AA96A7;
     margin-bottom: 20px;
 }
+
+.article__interestsList {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+
+.article__interestsListItem {
+    text-align: center;
+    margin: 10px;
+}
+
+.article__interestsListItemTitle {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}

@@ -1,11 +1,14 @@
 .navigationList {
+    display: flex;
+    max-width: 600px;
     list-style-type: none;
-    display: block;
-    margin-right: 20px;
+    margin: 0px auto;
+    padding: 0px;
+    flex-wrap: wrap;
 }
 
 .navigationList__item {
-    margin: 15px auto;
+    margin: 5px auto;
     text-align: center;
 }
 
