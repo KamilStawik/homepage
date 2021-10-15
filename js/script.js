@@ -9,14 +9,18 @@
         const mainHeading = document.querySelector(".js-webSiteTitle");
         const buttonRemovingHeading = document.querySelector(".js-buttonRemovingHeading");
         mainHeading.classList.toggle("webSiteTitle--none");
-        buttonRemovingHeading.innerText === "Usuń Nagłówek" ? buttonRemovingHeading.innerText = "Pokaż nagłówek" : buttonRemovingHeading.innerText = "Usuń Nagłówek";
+        buttonRemovingHeading.innerText === "Usuń Nagłówek"
+            ? buttonRemovingHeading.innerText = "Pokaż nagłówek"
+            : buttonRemovingHeading.innerText = "Usuń Nagłówek";
     }
 
     const onNightReadingMode = () => {
         const buttonNightReading = document.querySelector(".js-buttonNightReading");
         const article = document.querySelector(".js-article");
         article.classList.toggle("article--nightReading");
-        buttonNightReading.innerText === "Tryb nocny" ? buttonNightReading.innerText = "Tryb dzienny" : buttonNightReading.innerText = "Tryb nocny";
+        buttonNightReading.innerText === "Tryb nocny" 
+        ? buttonNightReading.innerText = "Tryb dzienny" 
+        : buttonNightReading.innerText = "Tryb nocny";
     }
 
     const init = () => {
